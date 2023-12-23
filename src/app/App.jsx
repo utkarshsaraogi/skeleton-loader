@@ -1,9 +1,16 @@
 import Header from "./components/Header";
+import Home from "./pages/Home";
 
-function App() {
+const App = () => {
     return (
-        <div className='App'>
-            <Header title='Skeleton Loader' />
+        <div className='layout'>
+            <div className='layout__header'>
+                <Header title='Skeleton Loader' />
+            </div>
+            <div className='layout__body'>
+                <Home />
+            </div>
+            <div className='layout__footer'>I am footer</div>
         </div>
     );
 }

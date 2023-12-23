@@ -4,10 +4,11 @@
 
 @import './base';
 @import './animations';
+@import './layout';
 
 // components
 @import './components/skeleton';
 @import './components/header';
 
-
 // pages
+@import './pages/home'

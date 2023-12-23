@@ -1,0 +1,15 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    padding: 20px;
+
+    &__header {}
+
+    &__body {}
+
+    &__footer {
+        margin-top: auto;
+    }
+}
