@@ -8,11 +8,11 @@ const Home = () => {
         <div className='home'>
             <div className='home__profile'>
                 <h1 className='home-label'>Profile</h1>
-                {[1].map((n) => <ProfileSkeleton key={n} />)}
+                {<ProfileSkeleton />}
             </div>
             <div className='home__feed'>
                 <h1 className='home-label'>Blogs</h1>
-                {[1,2,3,4,5].map((n) => <BlogSkeleton key={n} />)}
+                {Array(6).fill().map((n) => <BlogSkeleton key={n} />)}
             </div>
         </div>
     )
