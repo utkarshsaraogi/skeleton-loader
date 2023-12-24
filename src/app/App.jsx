@@ -10,7 +10,7 @@ const App = () => {
             <div className='layout__body'>
                 <Home />
             </div>
-            <div className='layout__footer'>I am footer</div>
+            <div className='layout__footer'>footer</div>
         </div>
     );
 }

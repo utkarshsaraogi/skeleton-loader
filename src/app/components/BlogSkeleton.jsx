@@ -6,9 +6,9 @@ import Skeleton from './Skeleton';
 const BlogSkeleton = () => {
     return (
         <div className='skeletonWrapper'>
-            <div className='skeletonBlog'>
+            <div className='blog'>
                 <Skeleton type='thumbnail' />
-                <div className='skeletonBlog__content'>
+                <div className='blog__content'>
                     <Skeleton type='title' />
                     <Skeleton type='text' />
                     <Skeleton type='text' />
@@ -18,6 +18,6 @@ const BlogSkeleton = () => {
             <Shimmer />
         </div>
     )
-}
+};
 
 export default BlogSkeleton;

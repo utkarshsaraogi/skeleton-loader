@@ -10,7 +10,10 @@
         @include subtitle-l();
     }
 
-    &__feed {}
+    &__feed {
+        display: flex;
+        flex-direction: column;
+    }
 
     &__profile {}
 }

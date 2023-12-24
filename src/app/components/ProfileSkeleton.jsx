@@ -6,7 +6,7 @@ import Skeleton from './Skeleton'
 const ProfileSkeleton = () => {
     return (
         <div className='skeletonWrapper'>
-            <div className='skeletonProfile'>
+            <div className='profile'>
                 <div>
                     <Skeleton type='avatar' />
                 </div>
@@ -19,6 +19,6 @@ const ProfileSkeleton = () => {
             <Shimmer />
         </div>
     )
-}
+};
 
 export default ProfileSkeleton;
